@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Send your Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css" type="text/css">
+  </head>
+  <body>
+    <div class="prj">
+        <h4 class="pa">Welcome to the home of Software Developers, Submit your Application and for a confirmation message via email.</h4>
+    </div>
+    <h1>Fill up your application form</h1>
+    
+    <form>
+      <label for="text">Enter Your Full name:</label>
+      <input type="text" id="text" name="text" placeholder="Enter your name" required minlength="3" maxlength="20">
+      <br>
+      
+      <label for="email">Email Input:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <br>
+      
+      <label for="password">Password Input:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" minlength="8" maxlength="20" required>
+      <br>
+      
+      <label for="number">Age Input:</label>
+      <input type="number" id="number" name="number" min="1" max="100" required>
+      <br>
+      
+      <label for="date">Date Input:</label>
+      <input type="date" id="date" name="date" required>
+      <br>
+      
+      <label for="time">Time Input:</label>
+      <input type="time" id="time" name="time" required>
+      <br>
+      
+      <label for="url">Portfolio Url:</label>
+      <input type="url" id="url" name="url" placeholder="Enter a valid URL" required>
+      <br>
+      
+      <label for="file">Upload your CV:</label>
+      <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png" multiple>
+      <br>
+      
+      <label for="select">Select Gender:</label>
+      <select id="select" name="select" required>
+        <option value="">-- Select an option --</option>
+        <option value="option1">Male</option>
+        <option value="option2">Female</option>
+        <option value="option3">Others</option>
+      </select>
+      <br>
+      
+      <label for="textarea">Application message:</label>
+      <textarea id="textarea" name="textarea" rows="4" cols="40" minlength="10" maxlength="100" required></textarea>
+      <br>
+
+      <input type="submit" value="Submit">
+    </form>
+    
+  </body>
+</html>

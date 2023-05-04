@@ -1,0 +1,84 @@
+form {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color:silver;
+    margin-bottom: 40px;
+  }
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    /* background-image: url("im.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+    
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  input,
+  select,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #3e8baa;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  input[type="date"],
+  input[type="time"],
+  input[type="url"],
+  textarea {
+    min-height: 50px;
+  }
+  
+  select {
+    height: 40px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 0;
+  }
+
+  .pa{
+    font-size:20px;
+    font-weight:bold;
+    color:blue;
+  }
+  .prj{
+    align-items: center;
+    margin-left:60px;
+    margin-top: 10px;
+  }
